@@ -151,3 +151,8 @@ span.badge {
   padding-bottom: .05em;
   border-radius: 10rem;
 }
+
+#mmvst_globe_container {
+    width: 200px;
+    height: 200px;
+}
