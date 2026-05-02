@@ -71,7 +71,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">TCSVT</div>
-    <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="80%">
+    <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="90%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
@@ -88,7 +88,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">CVPR Main</div>
-    <img src='images/Video2Robo-10s.gif' alt="Video2Robo Demo" width="80%">
+    <img src='images/Video2Robo-10s.gif' alt="Video2Robo Demo" width="90%">
   </div>
   <div class='paper-box-text'>
     <h3><a href="/cast/" style="color: inherit; text-decoration: none;">Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning</a></h3>
@@ -108,7 +108,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/omnimap.gif' alt="Omnimap Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
     <div class="venue">IEEE Transactions on Robotics (TRO) 2025</div>
     <div class="links">
@@ -128,7 +128,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   <div class='paper-box-text'>
     <h3><a href="/cast/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
-    <div class="venue">IEEE Robotics and Automation Letters (TRO) 2025</div>
+    <div class="venue">IEEE Robotics and Automation Letters (RAL) 2025</div>
     <div class="links">
       <a href="https://LGSDF.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://arxiv.org/abs/2404.05187" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
@@ -155,41 +155,122 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+
+<div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">ACL 2026 Findings</div>
-    <img src='images/TADA-pipeline.jpg' alt="CAST Framework Architecture" width="100%">
+    <div class="badge pulse-accent">RAL</div>
+    <img src='images/openobj.gif' alt="OpenObj Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">CAST: Achieving Stable LLM-based Text Analysis for Data Analytics</a></h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Zihao Li, Wei He, Rui Ding, Shi Han, Dongmei Zhang</div>
-    <div class="venue">In Findings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</div>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OpenObj: Open-Vocabulary Object-Level Neural Radiance Fields with Fine-Grained Understanding</a></h3>
+    <div class="authors"> <span class="accent-text">Yinan Deng</span>, Jiahui Wang, Jingyu Zhao, Jianyu Dou, Yi Yang, Yufeng Yue*, </div>
+    <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
     <div class="links">
-      <a href="/cast/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
-      <a href="https://arxiv.org/abs/2602.15861" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/jxtse/CAST-text-analysis" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://openobj.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://arxiv.org/abs/2406.08009" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/BIT-DYN/OpenObj" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
 
-<div class='paper-box floating-card'>
+
+
+<div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">AAAI 2025</div>
-    <img src='images/Example_page-0001.png' alt="DSGram Framework Overview" width="100%">
+    <div class="badge pulse-accent">RAL</div>
+    <img src='images/opengraph.jpg' alt="OpenGraph Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/dsgram/" style="color: inherit; text-decoration: none;">DSGram: Dynamic Weighting Sub-Metrics for Grammatical Error Correction in the Era of Large Language Models</a></h3>
-    <div class="authors"><strong>Jinxiang Xie</strong>, Yilin Li, Xunjian Yin, Xiaojun Wan</div>
-    <div class="venue">In The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025)</div>
+    <h3><a href="#" style="color: inherit; text-decoration: none;">OpenGraph: Open-Vocabulary Hierarchical 3D Graph Representation in Large-Scale Outdoor Environments</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Jiahui Wang, Jingyu Zhao, Xinyu Tian, Guangyan Chen, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
     <div class="links">
-      <a href="/dsgram/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
-      <a href="https://arxiv.org/abs/2412.12832" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
-      <a href="https://github.com/jxtse/GEC-Metrics-DSGram" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://arxiv.org/abs/2403.09412" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/BIT-DYN/OpenGraph" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
 
-<!--- Qiyang Chen, Yuezhi Wang, **Jinxiang Xie**, Guozheng Li, Chi Harold Liu. $M^3$ Trader: Multimodal Macro–Micro Inference with LLM-Guided Reinforcement Learning for Quantitative Trading. **Under Review**.-->
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">RAL</div>
+    <img src='images/macim.jpg' alt="MACIM Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="#" style="color: inherit; text-decoration: none;">MACIM: Multi-Agent Collaborative Implicit Mapping</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Yujie Tang, Yi Yang, Danwei Wang, Yufeng Yue*</div>
+    <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
+    <div class="links">
+      <a href="https://drive.google.com/file/d/1Y0tJIY4uLdCNG98D8oiAl4SN65uC9Aff/view" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://github.com/BIT-DYN/MACIM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">TIE</div>
+    <img src='images/see-csom.jpg' alt="SEE-CSOM Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="#" style="color: inherit; text-decoration: none;">SEE-CSOM: Sharp-Edged and Efficient Continuous Semantic Occupancy Mapping for Mobile Robots</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Yi Yang, Danwei Wang, Yufeng Yue*</div>
+    <div class="venue">IEEE Transactions on Industrial Electronics (TIE) 2024</div>
+    <div class="links">
+      <a href="https://drive.google.com/file/d/1vji6cXKYuk5F8sI14og4HjPpiCddPoaS/view?usp=drive_link" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://github.com/BIT-DYN/SEE-CSOM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">IROS</div>
+    <img src='images/hd-ccsom.gif' alt="HD-CCSOM Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="#" style="color: inherit; text-decoration: none;">HD-CCSOM: Hierarchical and Dense Collaborative Continuous Semantic Occupancy Mapping through Label Diffusion</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
+    <div class="links">
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981756" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9981756" class="btn-accent"><i class="fas fa-external-link-alt"></i> IEEE</a>
+      <a href="https://github.com/BIT-DYN/HD-CCSOM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">IROS</div>
+    <img src='images/s-mki.gif' alt="S-MKI Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="#" style="color: inherit; text-decoration: none;">S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Danwei Wang, Yufeng Yue*</div>
+    <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
+    <div class="links">
+      <a href="https://drive.google.com/file/d/16fpqzUqQAHrn9fpw3qczrCvaX6Hfaisz/view?pli=1" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/9982101" class="btn-accent"><i class="fas fa-external-link-alt"></i> IEEE</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+# <i class="fas fa-graduation-cap"></i> Professional Memberships
+- IEEE <span class="primary-gradient-text">Student Member</span>.
+- <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
+
+
+# <i class="fas fa-graduation-cap"></i> Academic Services
+- IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 AE
+- IEEE Transactions on Robotics 2026 Reviewer
+- IEEE Robotics and Automation Letters (RAL) 2025/2023 Reviewer
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026/2025/2025/2023 Reviewer
+- IEEE/RSJ International Conference on Robotics and Automation (ICRA) 2026/2025/2024 Reviewer
+
 
 # <i class="fas fa-graduation-cap"></i> Educations
 - *2025.09 - Present*: &nbsp;Master of Science at <span class="primary-gradient-text">Kuang Yaming Honors School, Nanjing University</span>.
