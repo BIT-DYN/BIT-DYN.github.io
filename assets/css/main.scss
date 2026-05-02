@@ -130,3 +130,11 @@ h1:before, .anchor:before {
   padding-left: 0;
   padding-right: 0;
 }
+
+
+.highlight-orange {
+  background: linear-gradient(90deg, #ffe29a 0%, #ffb347 100%);
+  box-shadow: 0 2px 12px rgba(255,179,71,0.15);
+  border-radius: 12px;
+  border: 2px solid #ffb347;
+}

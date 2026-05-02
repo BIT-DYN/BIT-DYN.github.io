@@ -324,10 +324,3 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>-->
 
 <!--</div>-->
-
-.highlight-orange {
-  background: linear-gradient(90deg, #ffe29a 0%, #ffb347 100%);
-  box-shadow: 0 2px 12px rgba(255,179,71,0.15);
-  border-radius: 12px;
-  border: 2px solid #ffb347;
-}
