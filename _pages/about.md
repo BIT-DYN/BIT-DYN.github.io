@@ -30,28 +30,25 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-microscope"></i> Embodied AI Researcher</h3>
+    <h3><i class="fas fa-microscope"></i> Robotics Researcher</h3>
     <ul>
-      <li>Research focus on <span class="accent-text">LLMs and NLP</span></li>
       <li>Internships at <span class="primary-gradient-text">top institutions</span></li>
-      <li>Publications at <span class="accent-text">AAAI</span>, <span class="accent-text">ACL</span></li>
+      <li>Publications at <span class="accent-text">TRO</span>, <span class="accent-text">TCSVT</span>, <span class="accent-text">TIE</span>, <span class="accent-text">RAL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
     </ul>
   </div>
   
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-pen-fancy"></i> Content Creator</h3>
     <ul>
-      <li>Technical blogs with <span class="accent-text">500K+ views</span></li>
-      <li>Active on <a href="https://www.xiaohongshu.com/user/profile/60c47bae000000000100b07e" class="link-accent">Xiaohongshu</a></li>
-      <li><a href="https://mp.weixin.qq.com/s/5wn3NvB2FBpJD1jK0L4qbQ" class="link-accent">Articles</a> about <span class="primary-gradient-text">Tech & Humanities</span></li>
+      <li>Technical blogs with <span class="accent-text">150K+ views</span></li>
+      <li>Active on <a href="https://github.com/BIT-DYN" class="link-accent">Github</a></li>
     </ul>
   </div>
   
   <div class="highlight-block floating-card">
     <h3><i class="fas fa-globe-asia"></i> Life Explorer</h3>
     <ul>
-      <li>Visited <span class="accent-text">9 countries</span> worldwide</li>
-      <li>Traveled to <span class="accent-text">32 provinces</span> in China</li>
+      <li>Traveled to <span class="accent-text">30+ cities</span> in China</li>
       <li>Rich experience in <span class="primary-gradient-text">social work</span></li>
     </ul>
   </div>
