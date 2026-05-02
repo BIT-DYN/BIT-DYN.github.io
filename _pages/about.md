@@ -18,19 +18,19 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+              
 
-My name is <span class="accent-text">Jinxiang Xie</span> (pronounced "JIN-shee-ahng SHEE-eh"). I am a graduate student at <i class="fas fa-university"></i> **Nanjing University**. I earned my Bachelor's degree in Information and Computing Science from <i class="fas fa-university"></i> **Beijing Jiaotong University**. I was a research intern at <i class="fab fa-microsoft"></i> **Microsoft**, where I have the privilege of working with Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/juding/" class="link-accent">Justin Ding</a>.
-Prior to this, I gained valuable research experience at <i class="fas fa-university"></i> **Peking University** under the guidance of Prof. <a href="https://wanxiaojun.github.io/" class="link-accent">Xiaojun Wan</a>.
+My name is <span class="accent-text">Yinan Deng</span> (pronounced "Yee-nan Dung"). I am a third-year PhD student at <i class="fas fa-university"></i> **Beijing Institute of Technology** under the supervision of Prof. <a href="https://yfyue-bit.github.io/">Yufeng Yue</a>. I earned my Bachelor's degree in Automation from <i class="fas fa-university"></i> **Beijing Institute of Technology** in 2021. I was a research intern at <i class="fab fa-microsoft"></i> **Huawei**.
 
 <div class="quote-accent">
-My research focuses on leveraging <span class="primary-gradient-text">Large Language Models</span> to address complex problems.
+My research focuses on the intersection of <span class="primary-gradient-text">3D vision</span> and <span class="primary-gradient-text">embodied AI</span>. My goal is to equip robots with the ability to perceive and understand the 3D world.
 </div>
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-microscope"></i> AI Researcher</h3>
+    <h3><i class="fas fa-microscope"></i> Embodied AI Researcher</h3>
     <ul>
       <li>Research focus on <span class="accent-text">LLMs and NLP</span></li>
       <li>Internships at <span class="primary-gradient-text">top institutions</span></li>
