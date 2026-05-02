@@ -60,12 +60,29 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
 - *2025.02*: &nbsp;🎉🎉 One paper is accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
-- *2024.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
-- *2025.06*: &nbsp;🎉🎉 One paper is accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) oral. See you in <span class="accent-text">Hang Zhou</span>.
+- *2025.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
+- *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) oral. See you in <span class="accent-text">Hang Zhou</span>.
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
 
 
 # <i class="fas fa-file-alt"></i> Publications 
+
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">TCSVT</div>
+    <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
+    <div class="authors"><strong>Yinan Deng</strong>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+    <div class="links">
+      <a href="https://pamosplat.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://github.com/BIT-DYN/pamosplat" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 
 <div class='paper-box floating-card'>
