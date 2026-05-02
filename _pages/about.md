@@ -60,6 +60,9 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
 </div>
 
+
+<span class="anchor" id="-News"></span>
+
 # <i class="fas fa-fire"></i> News
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
@@ -68,6 +71,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) oral.
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
 
+
+<span class="anchor" id="-Publications"></span>
 
 # <i class="fas fa-file-alt"></i> Publications 
 
@@ -266,6 +271,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
 
 
+<span class="anchor" id="-Academic-services"></span>
+
 # <i class="fas fa-landmark"></i> Academic-services
 - IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 AE
 - IEEE Transactions on Robotics 2026 Reviewer
@@ -273,6 +280,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026/2025/2025/2023 Reviewer
 - IEEE/RSJ International Conference on Robotics and Automation (ICRA) 2026/2025/2024 Reviewer
 
+
+<span class="anchor" id="-Educations"></span>
 
 # <i class="fas fa-graduation-cap"></i> Educations
 - *2021.09 - Present*: &nbsp;Ph.D. in Automation <span class="primary-gradient-text">Beijing Institute of Technology</span>.
@@ -282,6 +291,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 # <i class="fas fa-laptop-code"></i> Internships
 - *2025.087 - Present*: &nbsp;Research Intern, 2012 Laboratory, **Huawei**.
 
+
+<span class="anchor" id="-Awards"></span>
 
 # <i class="fas fa-award"></i> Awards
 - *2025*: <span class="primary-gradient-text">National Natural Science Foundation for Doctoral Researchers</span> (only ~1000 recipients nationwide)
