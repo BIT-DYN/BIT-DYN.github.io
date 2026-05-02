@@ -85,18 +85,19 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </div>
 
 
-<div class='paper-box floating-card'>
+<div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
     <div class="badge pulse-accent">TCSVT</div>
-    <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="100%">
+    <img src='images/omnimap.gif' alt="Omnimap Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
-    <div class="authors"><strong>Yinan Deng</strong>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
-    <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics</a></h3>
+    <div class="authors"><strong>Yinan Deng</strong>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
+    <div class="venue">IEEE Transactions on Robotics (TRO)</div>
     <div class="links">
-      <a href="https://pamosplat.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
-      <a href="https://github.com/BIT-DYN/pamosplat" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+      <a href="https://omni-map.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://arxiv.org/abs/2509.07500" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/BIT-DYN/omnimap" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
@@ -323,3 +324,10 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>-->
 
 <!--</div>-->
+
+.highlight-orange {
+  background: linear-gradient(90deg, #ffe29a 0%, #ffb347 100%);
+  box-shadow: 0 2px 12px rgba(255,179,71,0.15);
+  border-radius: 12px;
+  border: 2px solid #ffb347;
+}
