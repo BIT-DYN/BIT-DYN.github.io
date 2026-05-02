@@ -256,7 +256,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
-# <i class="fas fa-people"></i> Professional-Memberships
+# <i class="fas fa-people-group"></i> Professional-Memberships
 - IEEE <span class="primary-gradient-text">Student Member</span>.
 - <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
 
