@@ -61,7 +61,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
 - *2025.02*: &nbsp;🎉🎉 One paper is accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
 - *2025.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
-- *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) oral. See you in <span class="accent-text">Hang Zhou</span>.
+- *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) oral.
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
 
 
@@ -75,10 +75,10 @@ Feel free to reach out if you'd like to discuss research or explore potential co
   </div>
   <div class='paper-box-text'>
     <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
-    <div class="authors"><strong>Yinan Deng</strong>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
-    <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2026</div>
     <div class="links">
-      <a href="https://pamosplat.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://pamosplat.github.io" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://github.com/BIT-DYN/pamosplat" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
@@ -87,17 +87,53 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <div class='paper-box floating-card highlight-orange'>
   <div class='paper-box-image'>
-    <div class="badge pulse-accent">TCSVT</div>
+    <div class="badge pulse-accent">CVPR Main</div>
+    <img src='images/Video2Robo-10s.gif' alt="Video2Robo Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning</a></h3>
+    <div class="authors"><span class="accent-text">Yinan Deng</span>, Kejia Hu, Ye Chen, Jianyu Dou, Jiahui Wang,Jingyu Zhao, Haojia Ao, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) Main Conference</div>
+    <div class="links">
+      <a href="https://video2robo.github.io" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">TRO</div>
     <img src='images/omnimap.gif' alt="Omnimap Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics</a></h3>
-    <div class="authors"><strong>Yinan Deng</strong>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
-    <div class="venue">IEEE Transactions on Robotics (TRO)</div>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
+    <div class="authors"> <span class="accent-text">Yinan Deng</span>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
+    <div class="venue">IEEE Transactions on Robotics (TRO) 2025</div>
     <div class="links">
       <a href="https://omni-map.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
       <a href="https://arxiv.org/abs/2509.07500" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
       <a href="https://github.com/BIT-DYN/omnimap" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class='paper-box floating-card highlight-orange'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">TRO</div>
+    <img src='images/lgsdf.gif' alt="LGSDF Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
+    <div class="authors"> Yufeng Yue* (supervisor), <span class="accent-text">Yinan Deng</span>, Yujie Tang, Jiahui Wang, Yi Yang</div>
+    <div class="venue">IEEE Robotics and Automation Letters (RAL) 2025</div>
+    <div class="links">
+      <a href="https://LGSDF.github.io" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://arxiv.org/abs/2404.05187" class="btn-accent"><i class="fas fa-file-alt"></i> ArXiv</a>
+      <a href="https://github.com/BIT-DYN/LGSDF" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
 </div>
