@@ -256,7 +256,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
-# <i class="fas fa-people-group"></i> Professional-Memberships
+# <i class="fas fa-id-card"></i> Professional-Memberships
 - IEEE <span class="primary-gradient-text">Student Member</span>.
 - <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
 
@@ -276,3 +276,18 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 # <i class="fas fa-laptop-code"></i> Internships
 - *2025.087 - Present*: &nbsp;Research Intern, 2012 Laboratory, **Huawei**.
+
+
+# <i class="fas fa-award"></i> Awards
+- *2025*: <span class="primary-gradient-text">National Natural Science Foundation for Doctoral Researchers</span>
+- *2025*: <span class="primary-gradient-text">National Scholarship</span>, China
+- *2024*: <span class="primary-gradient-text">Baosteel Education Scholarship</span> (only 500 recipients nationwide)
+- *2023*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
+- *2022*: <span class="primary-gradient-text">National Scholarship</span>, China
+- *2021*: <span class="primary-gradient-text">Outstanding Graduate</span>, Beijing Institute of Technology
+- *2020*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
+- *2019*: <span class="primary-gradient-text">Divine Scholarship</span>
+- *2019*: <span class="primary-gradient-text">National Scholarship, China</span>
+- *2018*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
+- *2017*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
+- *2015*: <span class="primary-gradient-text">Outstanding Students</span> Hebei Province
