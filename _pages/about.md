@@ -32,7 +32,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 <div class="highlight-blocks">
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-microscope"></i> Robotics Researcher</h3>
+    <h3><i class="fas fa-robot"></i> Robotics Researcher</h3>
     <ul>
       <li>Internships at <span class="primary-gradient-text">top institutions</span></li>
       <li>Publications at <span class="accent-text">TRO</span>, <span class="accent-text">TCSVT</span>, <span class="accent-text">TIE</span>, <span class="accent-text">RAL</span>, <span class="accent-text">CVPR</span>, <span class="accent-text">IROS</span></li>
@@ -257,12 +257,12 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
-# <i class="fas fa-graduation-cap"></i> Professional Memberships
+# <i class="fas fa-people-group"></i> Professional Memberships
 - IEEE <span class="primary-gradient-text">Student Member</span>.
 - <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
 
 
-# <i class="fas fa-graduation-cap"></i> Academic Services
+# <i class="fas fa-landmark"></i> Academic Services
 - IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 AE
 - IEEE Transactions on Robotics 2026 Reviewer
 - IEEE Robotics and Automation Letters (RAL) 2025/2023 Reviewer

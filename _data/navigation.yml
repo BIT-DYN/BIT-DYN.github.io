@@ -9,11 +9,11 @@ main:
   - title: "publications"
     url: "/#-publications"
 
-  - title: "memberships"
-    url: "/#-memberships"
+  - title: "professional memberships"
+    url: "/#-professional memberships"
     
-  - title: "services"
-    url: "/#-services"
+  - title: "academic services"
+    url: "/#-academic services"
 
   - title: "educations"
     url: "/#-educations"
