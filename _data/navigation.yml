@@ -9,6 +9,12 @@ main:
   - title: "publications"
     url: "/#-publications"
 
+  - title: "memberships"
+    url: "/#-memberships"
+    
+  - title: "services"
+    url: "/#-services"
+
   - title: "educations"
     url: "/#-educations"
 

@@ -234,7 +234,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
     <div class="links">
       <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9981756" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="https://ieeexplore.ieee.org/abstract/document/9981756" class="btn-accent"><i class="fas fa-external-link-alt"></i> IEEE</a>
       <a href="https://github.com/BIT-DYN/HD-CCSOM" class="btn-accent"><i class="fab fa-github"></i> Code</a>
     </div>
   </div>
@@ -251,7 +250,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
     <div class="links">
       <a href="https://drive.google.com/file/d/16fpqzUqQAHrn9fpw3qczrCvaX6Hfaisz/view?pli=1" class="btn-accent"><i class="fas fa-file-pdf"></i> PDF</a>
-      <a href="https://ieeexplore.ieee.org/abstract/document/9982101" class="btn-accent"><i class="fas fa-external-link-alt"></i> IEEE</a>
     </div>
   </div>
 </div>
@@ -273,11 +271,9 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 # <i class="fas fa-graduation-cap"></i> Educations
-- *2025.09 - Present*: &nbsp;Master of Science at <span class="primary-gradient-text">Kuang Yaming Honors School, Nanjing University</span>.
-- *2021.09 - 2025.06*: &nbsp;Bachelor of Science in Information and Computing Science, <span class="primary-gradient-text">Beijing Jiaotong University</span>.
+- *2021.09 - Present*: &nbsp;Ph.D. in Automation <span class="primary-gradient-text">Beijing Institute of Technology</span>.
+- *2021.09 - 2023.06*: &nbsp;Master in Automation <span class="primary-gradient-text">Beijing Institute of Technology</span>.
+- *2017.09 - 2021.06*: &nbsp; Bachelor in Automation, <span class="primary-gradient-text">Beijing Institute of Technology</span>.
 
 # <i class="fas fa-laptop-code"></i> Internships
-- *2025.08 - Present*: &nbsp;Research Intern, <a href="https://www.asintelligence.xyz/" class="link-accent">Artificial Scientific Intelligence Lab</a>, **National University of Singapore**.
-- *2024.08 - 2025.08*: &nbsp;Research Intern, <a href="https://www.microsoft.com/en-us/research/group/data-knowledge-intelligence/" class="link-accent">Data, Knowledge and Intelligence (DKI) Group</a>, **Microsoft**.
-- *2023.11 - 2024.08*: &nbsp;Research Intern, <a href="https://sai.pku.edu.cn/znxyenglish/" class="link-accent">Wangxuan Institute of Computer Technology</a>, **Peking University**.
-<!-- - *2023.05 - 2023.07*: &nbsp;Summer Workshop Student, <a href="https://www.comp.nus.edu.sg/" class="link-accent">School of Computer</a>, **National University of Singapore**. -->
+- *2025.087 - Present*: &nbsp;Research Intern, 2012 Laboratory, **Huawei**.
