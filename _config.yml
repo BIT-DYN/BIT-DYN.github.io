@@ -78,7 +78,6 @@ t:
     Academic-services: "Academic-services"
     educations: "Educations"
     internships: "Internships"
-    blogs: "Blogs"
 
 # Reading Files
 include:
