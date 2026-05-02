@@ -283,7 +283,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 # <i class="fas fa-award"></i> Awards
-- *2025*: <span class="primary-gradient-text">National Natural Science Foundation for Doctoral Researchers</span>
+- *2025*: <span class="primary-gradient-text">National Natural Science Foundation for Doctoral Researchers</span> (only ~1000 recipients nationwide)
 - *2025*: <span class="primary-gradient-text">National Scholarship</span>, China
 - *2024*: <span class="primary-gradient-text">Baosteel Education Scholarship</span> (only 500 recipients nationwide)
 - *2023*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
