@@ -260,12 +260,12 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 
 
-# <i class="fas fa-id-card"></i> Professional-Memberships
+# <i class="fas fa-id-card"></i> Professional-memberships
 - IEEE <span class="primary-gradient-text">Student Member</span>.
 - <span class="primary-gradient-text">Sectional Student Representative </span> of RAS (IEEE Robotics and Automation Society).
 
 
-# <i class="fas fa-landmark"></i> Academic-Services
+# <i class="fas fa-landmark"></i> Academic-services
 - IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 AE
 - IEEE Transactions on Robotics 2026 Reviewer
 - IEEE Robotics and Automation Letters (RAL) 2025/2023 Reviewer
