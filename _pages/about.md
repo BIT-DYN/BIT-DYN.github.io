@@ -23,9 +23,9 @@ redirect_from:
 My name is <span class="accent-text">Yinan Deng</span> (pronounced "Yee-nan Dung"). I am a third-year PhD student at <i class="fas fa-university"></i> **Beijing Institute of Technology** under the supervision of Prof. <a href="https://yfyue-bit.github.io/">Yufeng Yue</a>. I earned my Bachelor's degree in Automation from <i class="fas fa-university"></i> **Beijing Institute of Technology** in 2021. I was a research intern at <i class="fab fa-microsoft"></i> **Huawei**.
 
 <div class="quote-accent">
-My research focuses on the intersection of <span class="primary-gradient-text">3D vision</span> and <span class="primary-gradient-text">embodied AI</span>. 
+My research focuses on the intersection of <span class="primary-gradient-text">3D vision</span> and <span class="primary-gradient-text">embodied AI</span>. <br>
 
-My goal is to bring intelligent robots into every home.
+My goal is to bring intelligent robots into every household.
 </div>
 
 Feel free to reach out if you'd like to discuss research or explore potential collaboration!
@@ -57,10 +57,32 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </div>
 
 # <i class="fas fa-fire"></i> News
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by The 39th Annual AAAI Conference on Artificial Intelligence (AAAI 2025). <span class="accent-text">See you in Philadelphia!</span>
-- *2024.08*: &nbsp;I have joined <span class="primary-gradient-text">Microsoft</span> as a Research Intern under the guidance of Principal Researcher Justin Ding, where I focus on evaluating and enhancing LLM outputs.
+- *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
+- *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
+- *2025.02*: &nbsp;🎉🎉 One paper is accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
+- *2024.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
+- *2025.06*: &nbsp;🎉🎉 One paper is accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) oral. See you in <span class="accent-text">Hang Zhou</span>.
+- *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
+
 
 # <i class="fas fa-file-alt"></i> Publications 
+
+
+<div class='paper-box floating-card'>
+  <div class='paper-box-image'>
+    <div class="badge pulse-accent">TCSVT</div>
+    <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="100%">
+  </div>
+  <div class='paper-box-text'>
+    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
+    <div class="authors"><strong>Yinan Deng</strong>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
+    <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</div>
+    <div class="links">
+      <a href="https://pamosplat.github.io/" class="btn-accent"><i class="fas fa-home"></i> Project</a>
+      <a href="https://github.com/BIT-DYN/pamosplat" class="btn-accent"><i class="fab fa-github"></i> Code</a>
+    </div>
+  </div>
+</div>
 
 <div class='paper-box floating-card'>
   <div class='paper-box-image'>
