@@ -20,7 +20,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
               
 
-My name is <span class="accent-text">Yinan Deng</span> (pronounced "Yee-nan Dung"). <br>
+My name is <span class="accent-text">Yinan Deng (邓一楠)</span> (pronounced "Yee-nan Dung"). <br>
  I am a third-year PhD student at <i class="fas fa-university"></i> **Beijing Institute of Technology** under the supervision of Prof. <a href="https://yfyue-bit.github.io/">Yufeng Yue</a>. <br>
  I earned my Bachelor's degree in Automation from <i class="fas fa-university"></i> **Beijing Institute of Technology** in 2021. <br>
  I have published 10+ papers in top-tier journals and conferences as the first author. <br>
@@ -259,6 +259,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 </div>
 
 
+<span class="anchor" id="-Professional-memberships"></span>
 
 # <i class="fas fa-id-card"></i> Professional-memberships
 - IEEE <span class="primary-gradient-text">Student Member</span>.
