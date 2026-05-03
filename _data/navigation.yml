@@ -11,9 +11,12 @@ main:
 
   - title: "educations"
     url: "/#-educations"
+    
+  - title: "Professional-memberships"
+    url: "/#-Professional-memberships"
+    
+  - title: "Academic-services"
+    url: "/#-Academic-services"
 
   - title: "internships"
     url: "/#-internships"
-
-  - title: "blogs"
-    url: "/#-blogs"
