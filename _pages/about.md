@@ -290,7 +290,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2017.09 - 2021.06*: &nbsp; Bachelor in Automation, <span class="primary-gradient-text">Beijing Institute of Technology</span>.
 
 # <i class="fas fa-laptop-code"></i> Internships
-- *2025.087 - Present*: &nbsp;Research Intern, 2012 Laboratory, **Huawei**.
+- *2025.07 - Present*: &nbsp;Research Intern, 2012 Laboratory, **Huawei**.
 
 
 <span class="anchor" id="-Awards"></span>
