@@ -29,9 +29,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yinan Deng"
   avatar           : "images/dengyinan.jpg"
-  bio              : "Beijing Institute of Technology"
+  bio              : "Focusing on 3DV and robotics."
   location         : "Beijing, China"
-  employer         :
+  employer         : "Beijing Institute of Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=GdzvUH0AAAAJ"
   email            : "dengyinan@bit.edu.cn"
