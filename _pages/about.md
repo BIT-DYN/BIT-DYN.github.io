@@ -66,7 +66,8 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 # <i class="fas fa-fire"></i> News
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
-- *2025.02*: &nbsp;🎉🎉 Four papers are accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
+- *2026.02*: &nbsp;🎉🎉 Four papers are accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
+- *2025.08*: &nbsp; One paper is accepted by IEEE Transactions on Robotics (TRO).
 - *2025.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
 - *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) oral.
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
@@ -83,7 +84,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/pamospalt.gif' alt="PamoSplat Demo" width="90%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
+    <h3><a href="https://pamosplat.github.io" style="color: inherit; text-decoration: none;">PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Jianyu Dou, Jiahui Wang, Jingyu Zhao, Yi Yang, Yufeng Yue*</div>
     <div class="venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) 2026</div>
     <div class="links">
@@ -100,7 +101,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/Video2Robo-10s.gif' alt="Video2Robo Demo" width="90%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning</a></h3>
+    <h3><a href="https://video2robo.github.io" style="color: inherit; text-decoration: none;">Video2Robo: 3DGS-based Synthetic Data from One Video Enables Scalable Robot Learning</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Kejia Hu, Ye Chen, Jianyu Dou, Jiahui Wang,Jingyu Zhao, Haojia Ao, Yi Yang, Yufeng Yue*</div>
     <div class="venue">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) Main Conference</div>
     <div class="links">
@@ -117,7 +118,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/omnimap.gif' alt="Omnimap Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics</a></h3>
+    <h3><a href="https://omni-map.github.io/" style="color: inherit; text-decoration: none;">OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
     <div class="venue">IEEE Transactions on Robotics (TRO) 2025</div>
     <div class="links">
@@ -135,7 +136,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/lgsdf.gif' alt="LGSDF Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
+    <h3><a href="https://LGSDF.github.io/" style="color: inherit; text-decoration: none;">LGSDF: Continual Global Learning of Signed Distance Fields Aided by Local Updating</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Yufeng Yue*, Jianyu Dou, Jingyu Zhao, Jiahui Wang, Yujie Tang, Yi Yang, Mengyin Fu</div>
     <div class="venue">IEEE Robotics and Automation Letters (RAL) 2025</div>
     <div class="links">
@@ -154,7 +155,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/openvox.gif' alt="Openvox Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OpenVox: Real-time Instance-level Open-vocabulary Probabilistic Voxel Representation</a></h3>
+    <h3><a href="https://open-vox.github.io" style="color: inherit; text-decoration: none;">OpenVox: Real-time Instance-level Open-vocabulary Probabilistic Voxel Representation</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Bicheng Yao†, Yihang Tang†, Yi Yang, Yufeng Yue*</div>
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2025 </div>
     <div class="links">
@@ -171,7 +172,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/openobj.gif' alt="OpenObj Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="/cast/" style="color: inherit; text-decoration: none;">OpenObj: Open-Vocabulary Object-Level Neural Radiance Fields with Fine-Grained Understanding</a></h3>
+    <h3><a href="https://openobj.github.io/" style="color: inherit; text-decoration: none;">OpenObj: Open-Vocabulary Object-Level Neural Radiance Fields with Fine-Grained Understanding</a></h3>
     <div class="authors"> <span class="accent-text">Yinan Deng</span>, Jiahui Wang, Jingyu Zhao, Jianyu Dou, Yi Yang, Yufeng Yue*, </div>
     <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
     <div class="links">
@@ -190,7 +191,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/opengraph.jpg' alt="OpenGraph Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="#" style="color: inherit; text-decoration: none;">OpenGraph: Open-Vocabulary Hierarchical 3D Graph Representation in Large-Scale Outdoor Environments</a></h3>
+    <h3><a href="https://github.com/BIT-DYN/OpenGraph" style="color: inherit; text-decoration: none;">OpenGraph: Open-Vocabulary Hierarchical 3D Graph Representation in Large-Scale Outdoor Environments</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Jiahui Wang, Jingyu Zhao, Xinyu Tian, Guangyan Chen, Yi Yang, Yufeng Yue*</div>
     <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
     <div class="links">
@@ -206,7 +207,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/macim.jpg' alt="MACIM Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="#" style="color: inherit; text-decoration: none;">MACIM: Multi-Agent Collaborative Implicit Mapping</a></h3>
+    <h3><a href="https://github.com/BIT-DYN/MACIM" style="color: inherit; text-decoration: none;">MACIM: Multi-Agent Collaborative Implicit Mapping</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Yujie Tang, Yi Yang, Danwei Wang, Yufeng Yue*</div>
     <div class="venue">IEEE Robotics and Automation Letters (RAL) 2024</div>
     <div class="links">
@@ -222,7 +223,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/see-csom.jpg' alt="SEE-CSOM Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="#" style="color: inherit; text-decoration: none;">SEE-CSOM: Sharp-Edged and Efficient Continuous Semantic Occupancy Mapping for Mobile Robots</a></h3>
+    <h3><a href="https://github.com/BIT-DYN/SEE-CSOM" style="color: inherit; text-decoration: none;">SEE-CSOM: Sharp-Edged and Efficient Continuous Semantic Occupancy Mapping for Mobile Robots</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Yi Yang, Danwei Wang, Yufeng Yue*</div>
     <div class="venue">IEEE Transactions on Industrial Electronics (TIE) 2024</div>
     <div class="links">
@@ -238,7 +239,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/hd-ccsom.gif' alt="HD-CCSOM Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="#" style="color: inherit; text-decoration: none;">HD-CCSOM: Hierarchical and Dense Collaborative Continuous Semantic Occupancy Mapping through Label Diffusion</a></h3>
+    <h3><a href="https://github.com/BIT-DYN/HD-CCSOM" style="color: inherit; text-decoration: none;">HD-CCSOM: Hierarchical and Dense Collaborative Continuous Semantic Occupancy Mapping through Label Diffusion</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Yi Yang, Yufeng Yue*</div>
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
     <div class="links">
@@ -254,7 +255,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
     <img src='images/s-mki.gif' alt="S-MKI Demo" width="100%">
   </div>
   <div class='paper-box-text'>
-    <h3><a href="#" style="color: inherit; text-decoration: none;">S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference</a></h3>
+    <h3><a href="https://drive.google.com/file/d/16fpqzUqQAHrn9fpw3qczrCvaX6Hfaisz/view?pli=1" style="color: inherit; text-decoration: none;">S-MKI: Incremental Dense Semantic Occupancy Reconstruction Through Multi-Entropy Kernel Inference</a></h3>
     <div class="authors"><span class="accent-text">Yinan Deng</span>, Meiling Wang, Danwei Wang, Yufeng Yue*</div>
     <div class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2022</div>
     <div class="links">
@@ -274,11 +275,11 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <span class="anchor" id="-Academic-services"></span>
 
 # <i class="fas fa-landmark"></i> Academic-services
-- IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 AE
-- IEEE Transactions on Robotics 2026 Reviewer
-- IEEE Robotics and Automation Letters (RAL) 2025/2023 Reviewer
-- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026/2025/2025/2023 Reviewer
-- IEEE/RSJ International Conference on Robotics and Automation (ICRA) 2026/2025/2024 Reviewer
+- IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 <span class="primary-gradient-text"> Associate Editor</span>.
+- IEEE Transactions on Robotics 2026 <span class="primary-gradient-text"> Reviewer</span>.
+- IEEE Robotics and Automation Letters (RAL) 2025/2023 <span class="primary-gradient-text"> Reviewer</span>.
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026/2025/2025/2023 <span class="primary-gradient-text"> Reviewer</span>.
+- IEEE/RSJ International Conference on Robotics and Automation (ICRA) 2026/2025/2024 <span class="primary-gradient-text"> Reviewer</span>.
 
 
 <span class="anchor" id="-Educations"></span>
@@ -295,15 +296,6 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <span class="anchor" id="-Awards"></span>
 
 # <i class="fas fa-award"></i> Awards
-- *2025*: <span class="primary-gradient-text">National Natural Science Foundation for Doctoral Researchers</span> (only ~1000 recipients nationwide)
-- *2025*: <span class="primary-gradient-text">National Scholarship</span>, China
+- *2025*: <span class="primary-gradient-text">National Natural Science Foundation Youth Student Basic Research Project (Doctoral Students)</span> (only ~1000 recipients nationwide)
+- *2025/2022/2019*: <span class="primary-gradient-text">National Scholarship</span>, China
 - *2024*: <span class="primary-gradient-text">Baosteel Education Scholarship</span> (only 500 recipients nationwide)
-- *2023*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
-- *2022*: <span class="primary-gradient-text">National Scholarship</span>, China
-- *2021*: <span class="primary-gradient-text">Outstanding Graduate</span>, Beijing Institute of Technology
-- *2020*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
-- *2019*: <span class="primary-gradient-text">Divine Scholarship</span>
-- *2019*: <span class="primary-gradient-text">National Scholarship, China</span>
-- *2018*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
-- *2017*: <span class="primary-gradient-text">Outstanding Students</span>, Beijing Institute of Technology
-- *2015*: <span class="primary-gradient-text">Outstanding Students</span> Hebei Province
