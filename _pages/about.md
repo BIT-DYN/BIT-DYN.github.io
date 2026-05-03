@@ -67,7 +67,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
 - *2026.02*: &nbsp;🎉🎉 Four papers are accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
-- *2025.08*: &nbsp; One paper is accepted by IEEE Transactions on Robotics (TRO).
+- *2025.08*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Robotics (TRO).
 - *2025.07*: &nbsp;I have joined <span class="primary-gradient-text">Huawei</span> as a Research Intern, where I focus on data generation for embodied AI.
 - *2025.06*: &nbsp;🎉🎉 Four papers are accepted by The IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2025) oral.
 - *2025.04*: &nbsp;🎉🎉 One paper is accepted by The  IEEE Robotics and Automation Letters (RAL).
