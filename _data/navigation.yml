@@ -8,12 +8,12 @@ main:
 
   - title: "publications"
     url: "/#-publications"
-
-  - title: "educations"
-    url: "/#-educations"
     
   - title: "Professional-memberships"
     url: "/#-Professional-memberships"
+
+  - title: "educations"
+    url: "/#-educations"
     
   - title: "Academic-services"
     url: "/#-Academic-services"
