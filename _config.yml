@@ -7,34 +7,34 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jinxiang Xie"
+title                    : "Yinan Deng"
 title_separator          : "-"
 subtitle                 : 
-name                     : "Jinxiang Xie"
+name                     : "Yinan Deng"
 description              : ""
-url                     : "https://jxtse.github.io"
+url                     : "https://bit-dyn.github.io"
 baseurl                 : ""
-repository               : "jxtse/jxtse.github.io"
+repository               : "BIT-DYN/BIT-DYN.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  googlea34440bfd0246b9e.html
+google_site_verification :  # googlea34440bfd0246b9e.html
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Jinxiang Xie"
-  avatar           : "images/android-chrome-512x512.jpg"
-  bio              : "Nanjing University"
-  location         : "Nanjing, China"
-  employer         :
+  name             : "Yinan Deng"
+  avatar           : "images/dengyinan.jpg"
+  bio              : "Focusing on 3DV and robotics."
+  location         : "Beijing, China"
+  employer         : "BIT"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=00fFhxQAAAAJ"
-  email            : "jxTse@outlook.com"
+  googlescholar    : "https://scholar.google.com/citations?user=GdzvUH0AAAAJ"
+  email            : "dengyinan@bit.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -43,21 +43,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jxtse"
+  github           : "BIT-DYN"
   google_plus      :
   keybase          :
-  instagram        : "richardtse_"
+  instagram        : # 
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jinxiang-xie"
+  linkedin         : # 
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  orcid            : "https://orcid.org/0009-0003-7973-1892"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "JinxiangTse"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -74,9 +74,11 @@ t:
     about: "About Me"
     news: "News"
     publications: "Publications"
+    Professional-memberships: "Professional-memberships"
+    Academic-services: "Academic-services"
     educations: "Educations"
     internships: "Internships"
-    blogs: "Blogs"
+    awards: "Awards"
 
 # Reading Files
 include:
