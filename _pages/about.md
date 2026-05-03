@@ -23,8 +23,7 @@ redirect_from:
 My name is <span class="accent-text">Yinan Deng (邓一楠)</span> (pronounced "dəŋ iː næn"). <br>
  I am a third-year PhD student at <i class="fas fa-university"></i> **Beijing Institute of Technology** under the supervision of Prof. <a href="https://yfyue-bit.github.io/">Yufeng Yue (岳裕丰)</a>. <br>
  I earned my Bachelor's degree in Automation from <i class="fas fa-university"></i> **Beijing Institute of Technology** in 2021. <br>
- I have published 10+ papers in top-tier journals and conferences as the first author. <br>
- I was a research intern at <i class="fab fa-microsoft"></i> **Huawei**.
+ I have published 10+ papers in top-tier journals and conferences as the first author.
 
 <div class="quote-accent">
 My research focuses on the intersection of <span class="primary-gradient-text">3D vision</span> and <span class="primary-gradient-text">embodied AI</span>. <br>
