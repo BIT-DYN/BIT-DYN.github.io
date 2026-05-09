@@ -276,7 +276,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 # <i class="fas fa-landmark"></i> Academic-services
 - IEEE International Conference on Robotics, Automation and Mechatronics (RAM) 2026 <span class="primary-gradient-text"> Associate Editor</span>.
 - IEEE Transactions on Robotics 2026 <span class="primary-gradient-text"> Reviewer</span>.
-- IEEE Robotics and Automation Letters (RAL) 2025/2023 <span class="primary-gradient-text"> Reviewer</span>.
+- IEEE Robotics and Automation Letters (RAL) 2026/2025/2023 <span class="primary-gradient-text"> Reviewer</span>.
 - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026/2025/2025/2023 <span class="primary-gradient-text"> Reviewer</span>.
 - IEEE/RSJ International Conference on Robotics and Automation (ICRA) 2026/2025/2024 <span class="primary-gradient-text"> Reviewer</span>.
 
