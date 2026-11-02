@@ -56,6 +56,46 @@ body.has-interactive-background {
   box-shadow: none;
 }
 
+/* Native SVG cursors keep the click point precise, with no following delay. */
+@media (hover: hover) and (pointer: fine) {
+  body {
+    cursor: url("../../images/cursors/robot.svg") 3 3, auto;
+  }
+
+  body a,
+  body button,
+  body .greedy-nav button,
+  body .background-toggle,
+  body [role="button"],
+  body select,
+  body label[for],
+  body input[type="button"],
+  body input[type="submit"],
+  body input[type="reset"],
+  body input[type="checkbox"],
+  body input[type="radio"],
+  body input[type="color"],
+  body input[type="file"] {
+    cursor: url("../../images/cursors/robot-link.svg") 3 3, pointer;
+  }
+
+  body input,
+  body textarea,
+  body [contenteditable] {
+    cursor: text;
+  }
+
+  body input[type="range"] {
+    cursor: ew-resize;
+  }
+
+  body [disabled],
+  body input:disabled,
+  body [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+
 @media (max-width: 600px) {
   .background-toggle {
     right: max(12px, env(safe-area-inset-right));
