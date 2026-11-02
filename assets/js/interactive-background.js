@@ -30,7 +30,9 @@
   var ripples = [];
   var frame = null;
   var lastTime = 0;
+  var elapsed = 0;
   var pointer = { x: 0, y: 0, active: false };
+  var halo = { x: 0, y: 0, opacity: 0 };
   var hoverTarget = 'a, button, input, textarea, select, label, summary, [role="button"], [contenteditable]';
 
   function moving() {
@@ -46,8 +48,8 @@
     context.setTransform(scale, 0, 0, scale, 0, 0);
 
     // Bound the pairwise connection work, including on large monitors.
-    var limit = coarsePointer.matches ? 38 : 90;
-    var count = Math.max(22, Math.min(limit, Math.round(width * height / 15500)));
+    var limit = coarsePointer.matches ? 50 : 145;
+    var count = Math.max(28, Math.min(limit, Math.round(width * height / 10000)));
     nodes = [];
     for (var i = 0; i < count; i++) {
       nodes.push({
@@ -57,8 +59,9 @@
         vy: (Math.random() - 0.5) * 14,
         ox: 0,
         oy: 0,
-        radius: 1 + Math.random() * 1.1,
-        pink: i % 5 === 0
+        radius: 1.2 + Math.random() * 1.3,
+        pink: i % 4 === 0,
+        energy: 0
       });
     }
     ripples = [];
@@ -75,10 +78,28 @@
 
   function draw(dt) {
     context.clearRect(0, 0, width, height);
-    context.lineWidth = 0.8;
+    context.lineWidth = 1;
+    elapsed += dt;
     var interaction = pointer.active && moving();
-    var reach = coarsePointer.matches ? 125 : 165;
+    var reach = coarsePointer.matches ? 145 : 215;
     var smoothing = 1 - Math.exp(-dt * 5);
+
+    // A soft pool of color follows the pointer without covering the content.
+    if (interaction && halo.opacity < 0.01) {
+      halo.x = pointer.x;
+      halo.y = pointer.y;
+    }
+    halo.x += (pointer.x - halo.x) * smoothing;
+    halo.y += (pointer.y - halo.y) * smoothing;
+    halo.opacity += ((interaction ? 1 : 0) - halo.opacity) * smoothing;
+    if (halo.opacity > 0.01) {
+      var glow = context.createRadialGradient(halo.x, halo.y, 0, halo.x, halo.y, 260);
+      glow.addColorStop(0, 'rgba(254,102,123,' + halo.opacity * 0.085 + ')');
+      glow.addColorStop(0.45, 'rgba(68,132,210,' + halo.opacity * 0.045 + ')');
+      glow.addColorStop(1, 'rgba(68,132,210,0)');
+      context.fillStyle = glow;
+      context.fillRect(halo.x - 260, halo.y - 260, 520, 520);
+    }
 
     nodes.forEach(function (node) {
       node.x += node.vx * dt;
@@ -91,9 +112,23 @@
       var dx = pointer.x - node.x;
       var dy = pointer.y - node.y;
       var distance = Math.sqrt(dx * dx + dy * dy);
-      var pull = interaction ? Math.max(0, 1 - distance / 240) * 0.18 : 0;
-      node.ox += (dx * pull - node.ox) * smoothing;
-      node.oy += (dy * pull - node.oy) * smoothing;
+      var pull = interaction ? Math.max(0, 1 - distance / 290) * 0.24 : 0;
+      var offsetX = dx * pull;
+      var offsetY = dy * pull;
+      node.energy = 0;
+      // Click waves briefly nudge and illuminate the nodes they pass through.
+      ripples.forEach(function (ripple) {
+        var rx = node.x - ripple.x;
+        var ry = node.y - ripple.y;
+        var rd = Math.sqrt(rx * rx + ry * ry);
+        var radius = 8 + ripple.age / 1.4 * 190;
+        var energy = Math.max(0, 1 - Math.abs(rd - radius) / 45) * (1 - ripple.age / 1.4);
+        offsetX += rx / Math.max(rd, 1) * energy * 32;
+        offsetY += ry / Math.max(rd, 1) * energy * 32;
+        node.energy = Math.max(node.energy, energy);
+      });
+      node.ox += (offsetX - node.ox) * smoothing;
+      node.oy += (offsetY - node.oy) * smoothing;
     });
 
     for (var i = 0; i < nodes.length; i++) {
@@ -108,7 +143,24 @@
         var dy = ay - by;
         var distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < reach) {
-          line(ax, ay, bx, by, a.pink ? '254,102,123' : '1,47,99', (1 - distance / reach) * 0.19);
+          var strength = 1 - distance / reach;
+          var color = a.pink ? '254,102,123' : '32,91,150';
+          line(ax, ay, bx, by, color, strength * 0.36);
+
+          // Selected edges carry a tiny traveling signal, like a living network.
+          // Restrict them to longer edges and skip them for static/reduced motion.
+          if (moving() && distance > 65 && (i * 7 + j) % 11 === 0) {
+            var progress = (elapsed * 0.16 + i * 0.13 + j * 0.07) % 1;
+            var tail = Math.max(0, progress - 0.14);
+            var sx = ax + (bx - ax) * progress;
+            var sy = ay + (by - ay) * progress;
+            var signalAlpha = Math.sin(progress * Math.PI) * strength;
+            line(ax + (bx - ax) * tail, ay + (by - ay) * tail, sx, sy, color, signalAlpha * 0.65);
+            context.fillStyle = 'rgba(' + color + ',' + signalAlpha * 0.85 + ')';
+            context.beginPath();
+            context.arc(sx, sy, 1.7, 0, Math.PI * 2);
+            context.fill();
+          }
         }
       }
 
@@ -116,12 +168,12 @@
         var px = ax - pointer.x;
         var py = ay - pointer.y;
         var pd = Math.sqrt(px * px + py * py);
-        if (pd < 200) line(ax, ay, pointer.x, pointer.y, '254,102,123', (1 - pd / 200) * 0.32);
+        if (pd < 255) line(ax, ay, pointer.x, pointer.y, '254,102,123', (1 - pd / 255) * 0.56);
       }
 
-      context.fillStyle = a.pink ? 'rgba(254,102,123,0.48)' : 'rgba(1,47,99,0.30)';
+      context.fillStyle = a.pink || a.energy > 0.1 ? 'rgba(254,102,123,0.72)' : 'rgba(32,91,150,0.52)';
       context.beginPath();
-      context.arc(ax, ay, a.radius, 0, Math.PI * 2);
+      context.arc(ax, ay, a.radius + a.energy * 2, 0, Math.PI * 2);
       context.fill();
     }
 
@@ -129,9 +181,9 @@
       ripple.age += dt;
       if (ripple.age >= 1.4) return false;
       var progress = ripple.age / 1.4;
-      context.strokeStyle = 'rgba(254,102,123,' + (1 - progress) * 0.3 + ')';
+      context.strokeStyle = 'rgba(254,102,123,' + (1 - progress) * 0.48 + ')';
       context.beginPath();
-      context.arc(ripple.x, ripple.y, 8 + progress * 145, 0, Math.PI * 2);
+      context.arc(ripple.x, ripple.y, 8 + progress * 190, 0, Math.PI * 2);
       context.stroke();
       return true;
     });
@@ -161,6 +213,7 @@
     if (moving()) frame = window.requestAnimationFrame(animate);
     else {
       pointer.active = false;
+      halo.opacity = 0;
       ripples = [];
       nodes.forEach(function (node) { node.ox = 0; node.oy = 0; });
       draw(0);
