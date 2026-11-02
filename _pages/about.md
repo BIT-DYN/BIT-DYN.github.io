@@ -63,6 +63,7 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 <span class="anchor" id="-News"></span>
 
 # <i class="fas fa-fire"></i> News
+- *2026.10*: &nbsp;🎉🎉 I received the Grand Award of the Student Incentive Program at the 4th ARTS.
 - *2026.05*: &nbsp;🎉🎉 One paper is accepted by IEEE Transactions on Circuits and Systems for Video Technology (TCSVT).
 - *2026.03*: &nbsp;🎉🎉 One paper is accepted by The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026) main conference.
 - *2026.02*: &nbsp;🎉🎉 Four papers are accepted by The IEEE International Conference on Robotics & Automation (ICRA 2026) oral. See you in <span class="accent-text">Vienna</span>.
@@ -296,5 +297,9 @@ Feel free to reach out if you'd like to discuss research or explore potential co
 
 # <i class="fas fa-award"></i> Awards
 - *2025*: <span class="primary-gradient-text">National Natural Science Foundation Youth Student Basic Research Project (Doctoral Students)</span> (only ~1000 recipients nationwide)
-- *2025/2022/2019*: <span class="primary-gradient-text">National Scholarship</span>, China
+- *2026/2025/2022/2019*: <span class="primary-gradient-text">National Scholarship</span>, China
 - *2024*: <span class="primary-gradient-text">Baosteel Education Scholarship</span> (only 500 recipients nationwide)
+- *2025.12*: <span class="primary-gradient-text">Beijing Capital Frontier Academic Achievement Award</span>
+- *2026.05*: <span class="primary-gradient-text">Best Presentation Award, Beijing University Artificial Intelligence Academic Forum</span>
+- *2026.06*: <span class="primary-gradient-text">Doctoral Dissertation Seed Fund, Beijing Institute of Technology</span>
+- *2026.10*: <span class="primary-gradient-text">Grand Award, Student Incentive Program, 4th ARTS</span>
