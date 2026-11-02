@@ -3,7 +3,9 @@
 
   var canvas = document.createElement('canvas');
   var context = canvas.getContext('2d');
-  if (!context || !window.requestAnimationFrame) return;
+  var cursorCanvas = document.createElement('canvas');
+  var cursorContext = cursorCanvas.getContext('2d');
+  if (!context || !cursorContext || !window.requestAnimationFrame) return;
 
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   var coarsePointer = window.matchMedia('(pointer: coarse)');
@@ -17,6 +19,9 @@
   canvas.setAttribute('aria-hidden', 'true');
   document.body.classList.add('has-interactive-background');
   document.body.prepend(canvas);
+  cursorCanvas.className = 'constellation-cursor';
+  cursorCanvas.setAttribute('aria-hidden', 'true');
+  document.body.appendChild(cursorCanvas);
 
   var toggle = document.createElement('button');
   toggle.type = 'button';
@@ -28,6 +33,7 @@
   var height = 0;
   var nodes = [];
   var ripples = [];
+  var trail = [];
   var frame = null;
   var lastTime = 0;
   var elapsed = 0;
@@ -46,25 +52,29 @@
     canvas.width = Math.round(width * scale);
     canvas.height = Math.round(height * scale);
     context.setTransform(scale, 0, 0, scale, 0, 0);
+    cursorCanvas.width = canvas.width;
+    cursorCanvas.height = canvas.height;
+    cursorContext.setTransform(scale, 0, 0, scale, 0, 0);
 
     // Bound the pairwise connection work, including on large monitors.
-    var limit = coarsePointer.matches ? 50 : 145;
-    var count = Math.max(28, Math.min(limit, Math.round(width * height / 10000)));
+    var limit = coarsePointer.matches ? 54 : 170;
+    var count = Math.max(30, Math.min(limit, Math.round(width * height / 8500)));
     nodes = [];
     for (var i = 0; i < count; i++) {
       nodes.push({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 14,
-        vy: (Math.random() - 0.5) * 14,
+        vx: (Math.random() - 0.5) * 26,
+        vy: (Math.random() - 0.5) * 26,
         ox: 0,
         oy: 0,
-        radius: 1.2 + Math.random() * 1.3,
+        radius: 1.7 + Math.random() * 1.5,
         pink: i % 4 === 0,
         energy: 0
       });
     }
     ripples = [];
+    trail = [];
     draw(0);
   }
 
@@ -78,7 +88,8 @@
 
   function draw(dt) {
     context.clearRect(0, 0, width, height);
-    context.lineWidth = 1;
+    cursorContext.clearRect(0, 0, width, height);
+    context.lineWidth = coarsePointer.matches ? 1.15 : 1.45;
     elapsed += dt;
     var interaction = pointer.active && moving();
     var reach = coarsePointer.matches ? 145 : 215;
@@ -94,8 +105,8 @@
     halo.opacity += ((interaction ? 1 : 0) - halo.opacity) * smoothing;
     if (halo.opacity > 0.01) {
       var glow = context.createRadialGradient(halo.x, halo.y, 0, halo.x, halo.y, 260);
-      glow.addColorStop(0, 'rgba(254,102,123,' + halo.opacity * 0.085 + ')');
-      glow.addColorStop(0.45, 'rgba(68,132,210,' + halo.opacity * 0.045 + ')');
+      glow.addColorStop(0, 'rgba(254,102,123,' + halo.opacity * 0.2 + ')');
+      glow.addColorStop(0.45, 'rgba(68,132,210,' + halo.opacity * 0.11 + ')');
       glow.addColorStop(1, 'rgba(68,132,210,0)');
       context.fillStyle = glow;
       context.fillRect(halo.x - 260, halo.y - 260, 520, 520);
@@ -112,7 +123,7 @@
       var dx = pointer.x - node.x;
       var dy = pointer.y - node.y;
       var distance = Math.sqrt(dx * dx + dy * dy);
-      var pull = interaction ? Math.max(0, 1 - distance / 290) * 0.24 : 0;
+      var pull = interaction ? Math.max(0, 1 - distance / 340) * 0.44 : 0;
       var offsetX = dx * pull;
       var offsetY = dy * pull;
       node.energy = 0;
@@ -123,8 +134,8 @@
         var rd = Math.sqrt(rx * rx + ry * ry);
         var radius = 8 + ripple.age / 1.4 * 190;
         var energy = Math.max(0, 1 - Math.abs(rd - radius) / 45) * (1 - ripple.age / 1.4);
-        offsetX += rx / Math.max(rd, 1) * energy * 32;
-        offsetY += ry / Math.max(rd, 1) * energy * 32;
+        offsetX += rx / Math.max(rd, 1) * energy * 52;
+        offsetY += ry / Math.max(rd, 1) * energy * 52;
         node.energy = Math.max(node.energy, energy);
       });
       node.ox += (offsetX - node.ox) * smoothing;
@@ -144,21 +155,21 @@
         var distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < reach) {
           var strength = 1 - distance / reach;
-          var color = a.pink ? '254,102,123' : '32,91,150';
-          line(ax, ay, bx, by, color, strength * 0.36);
+          var color = a.pink ? '240,88,126' : '35,99,174';
+          line(ax, ay, bx, by, color, Math.pow(strength, 0.65) * (coarsePointer.matches ? 0.45 : 0.60));
 
           // Selected edges carry a tiny traveling signal, like a living network.
           // Restrict them to longer edges and skip them for static/reduced motion.
           if (moving() && distance > 65 && (i * 7 + j) % 11 === 0) {
-            var progress = (elapsed * 0.16 + i * 0.13 + j * 0.07) % 1;
-            var tail = Math.max(0, progress - 0.14);
+            var progress = (elapsed * 0.25 + i * 0.13 + j * 0.07) % 1;
+            var tail = Math.max(0, progress - 0.22);
             var sx = ax + (bx - ax) * progress;
             var sy = ay + (by - ay) * progress;
             var signalAlpha = Math.sin(progress * Math.PI) * strength;
-            line(ax + (bx - ax) * tail, ay + (by - ay) * tail, sx, sy, color, signalAlpha * 0.65);
-            context.fillStyle = 'rgba(' + color + ',' + signalAlpha * 0.85 + ')';
+            line(ax + (bx - ax) * tail, ay + (by - ay) * tail, sx, sy, color, signalAlpha * 0.9);
+            context.fillStyle = 'rgba(' + color + ',' + signalAlpha + ')';
             context.beginPath();
-            context.arc(sx, sy, 1.7, 0, Math.PI * 2);
+            context.arc(sx, sy, 2.6, 0, Math.PI * 2);
             context.fill();
           }
         }
@@ -168,23 +179,59 @@
         var px = ax - pointer.x;
         var py = ay - pointer.y;
         var pd = Math.sqrt(px * px + py * py);
-        if (pd < 255) line(ax, ay, pointer.x, pointer.y, '254,102,123', (1 - pd / 255) * 0.56);
+        if (pd < 300) {
+          context.lineWidth = 1.8;
+          line(ax, ay, pointer.x, pointer.y, '240,88,126', Math.pow(1 - pd / 300, 0.7) * 0.8);
+          context.lineWidth = coarsePointer.matches ? 1.15 : 1.45;
+        }
       }
 
-      context.fillStyle = a.pink || a.energy > 0.1 ? 'rgba(254,102,123,0.72)' : 'rgba(32,91,150,0.52)';
+      context.fillStyle = a.pink || a.energy > 0.1 ? 'rgba(240,88,126,0.94)' : 'rgba(35,99,174,0.85)';
       context.beginPath();
       context.arc(ax, ay, a.radius + a.energy * 2, 0, Math.PI * 2);
       context.fill();
+    }
+
+    // Keep pointer feedback visible over opaque cards as well as empty space.
+    // This layer never receives pointer events or covers the page with a fill.
+    trail = trail.filter(function (point) {
+      point.age += dt;
+      return point.age < 0.65 && moving();
+    });
+    if (trail.length && interaction) {
+      cursorContext.lineCap = 'round';
+      for (var t = 1; t < trail.length; t++) {
+        var previous = trail[t - 1];
+        var current = trail[t];
+        var fade = 1 - current.age / 0.65;
+        cursorContext.lineWidth = 1 + fade * 2;
+        cursorContext.strokeStyle = 'rgba(240,88,126,' + fade * 0.65 + ')';
+        cursorContext.beginPath();
+        cursorContext.moveTo(previous.x, previous.y);
+        cursorContext.lineTo(current.x, current.y);
+        cursorContext.stroke();
+      }
+      var newest = trail[trail.length - 1];
+      cursorContext.lineWidth = 1.6;
+      cursorContext.strokeStyle = 'rgba(35,99,174,' + (1 - newest.age / 0.65) * 0.75 + ')';
+      cursorContext.beginPath();
+      cursorContext.arc(pointer.x, pointer.y, 13, 0, Math.PI * 2);
+      cursorContext.stroke();
     }
 
     ripples = ripples.filter(function (ripple) {
       ripple.age += dt;
       if (ripple.age >= 1.4) return false;
       var progress = ripple.age / 1.4;
-      context.strokeStyle = 'rgba(254,102,123,' + (1 - progress) * 0.48 + ')';
-      context.beginPath();
-      context.arc(ripple.x, ripple.y, 8 + progress * 190, 0, Math.PI * 2);
-      context.stroke();
+      cursorContext.lineWidth = 2 * (1 - progress) + 0.5;
+      cursorContext.strokeStyle = 'rgba(240,88,126,' + (1 - progress) * 0.75 + ')';
+      cursorContext.beginPath();
+      cursorContext.arc(ripple.x, ripple.y, 8 + progress * 190, 0, Math.PI * 2);
+      cursorContext.stroke();
+      cursorContext.strokeStyle = 'rgba(35,99,174,' + (1 - progress) * 0.4 + ')';
+      cursorContext.beginPath();
+      cursorContext.arc(ripple.x, ripple.y, 4 + progress * 145, 0, Math.PI * 2);
+      cursorContext.stroke();
       return true;
     });
   }
@@ -215,6 +262,7 @@
       pointer.active = false;
       halo.opacity = 0;
       ripples = [];
+      trail = [];
       nodes.forEach(function (node) { node.ox = 0; node.oy = 0; });
       draw(0);
     }
@@ -232,7 +280,14 @@
     if (event.pointerType === 'touch') return;
     pointer.x = event.clientX;
     pointer.y = event.clientY;
-    pointer.active = true;
+    pointer.active = !(event.target instanceof Element && event.target.closest('.masthead, .background-toggle'));
+    if (pointer.active && moving()) {
+      var latest = trail[trail.length - 1];
+      if (!latest || Math.hypot(latest.x - pointer.x, latest.y - pointer.y) > 5) {
+        trail.push({ x: pointer.x, y: pointer.y, age: 0 });
+        if (trail.length > 32) trail.shift();
+      }
+    }
   }, { passive: true });
   document.documentElement.addEventListener('pointerleave', function () { pointer.active = false; });
   window.addEventListener('blur', function () { pointer.active = false; });
